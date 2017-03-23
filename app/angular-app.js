@@ -48,7 +48,7 @@ mattApp.controller("paintController", function ($scope, $http) {
         {"text": "Being painterly just means painting how other painters paint; paying more attention to color, texture, and stroke over say... the linear, exact nature of pen and ink.  When I was trying to actually paint in oil or acrylic, I was always paying so much attention to detail.  The professors would try to get me to loosen up and \"embrace my creativity\", but what they failed to recognize was that I was; I\'m just a very detail-heavy person.  One time my oil professor, John, told me he wanted me to do one painting like he was asking and he\'d cut me a break on the rest of my paintings.  I seriously painted as lazy as I could and just slapped paint on the canvas.  No joke, he told me that was more like it.  That\'s around the time I realized oil\/acrylic painting just wasn\'t my thing."},
         {"text": "Conincidentally, around then was when I took my first watercolor class.  I was used to the watercolors you'd get as a kid in some kind of Crayloa art set, not Winsor &amp; Newton.  To compare the two is like comparing a Power Wheels to an actual car; they do the same basic thing, but one is for adults and one is for kids.  I kind of fell in love with watercolor.  I could be free and painterly (read: lazy) if I so chose, or I could be as meticulous and exact as my feverishly obsessive-compulsive brain desired."}
     ];
-    
+
     $scope.items = [
         {"name": "Sorrow", "id": "sorrow"},
         {"name": "Barber of Seville", "id": "barber-of-seville"},
@@ -71,7 +71,7 @@ mattApp.controller("penController", function ($scope) {
         {"text": "As previously mentioned, drawing is my jam.  There's something very satisfying taking a pen and a piece of paper and creating an abstract pattern or Michigan Central Station."},
         {"text": "For years I was very reliant on surrealist and abstract imagery, but as I've grown older I have become very fond of drawing architecture and funerary sculpture.  The architecture is so precise and exact, it speaks to my meticuluous nature; the funerary art has such built in mood and atmosphere."}
     ];
-    
+
     $scope.items = [
         {"name": "Efeses, Turkey", "id": "efeses"},
         {"name": "Pantheon - France", "id": "pantheon"},
@@ -109,7 +109,8 @@ mattApp.controller("pencilController", function ($scope) {
     $scope.id = "pencil";
     $scope.title = "Pencil";
     $scope.paragraphs = [
-        {"text": "This is where pencil text would go if there was any."}
+        {"text": "Like many artists, I started out using pencil.  I still use pencil to block stuff in when I'm painting or inking, but I tend to dislike it's nasty habit of getting *everywhere*.  I used to be fine with that.  Shit, I liked that graphite was such a workable, forgiving medium.  Now every time I see shades of graphite on my ink drawings, I want to punch random objects with a fury unseen by man."},
+        {"text": "That being said, I have to admit that I still get a kick out of charcoal, conte crayon and *some* amount of graphite (within reason).  It just has to be quick thumbnail sketches or very loose studies.  I haven't done much with charcoal or conte in quite a while, but I've provided a selection of pieces I did years ago that I think represent my style fairly accurately.  I realize the quality on some of the images is less than adequate, but those pieces are now owned by others so it's fairly difficult to get better ones.  I'm workin' on it."}
     ];
     $scope.items = [
         {"name": "Chaotic", "id": "chaotic"},
@@ -125,7 +126,7 @@ mattApp.controller("pencilController", function ($scope) {
         {"name": "Cubist Nude 5", "id": "cubist-nude5"},
         {"name": "Cubist Nude 6", "id": "cubist-nude6"}
     ];
-    
+
 });
 
 mattApp.controller("printController", function ($scope) {
