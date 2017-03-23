@@ -1,0 +1,14 @@
+        <section id="{{ id }}">
+            <div class="category">
+                <h2 class="heading">{{ title }}</h2>
+                <p class="text" ng-repeat="paragraph in paragraphs">{{ paragraph.text }}</p>
+                
+                <div class="category__gallery">
+                    <figure class="category__gallery-figure" ng-repeat="item in items">
+                         <a href="/#/image/{{ item.id }}/{{ item.name }}"><img class="image image--gallery-thumb" alt="{{ item.name }}" ng-src="./dist/img/{{ item.id }}-t.jpg" /></a>
+                        <figcaption class="caption">{{ item.name }}</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
