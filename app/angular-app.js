@@ -5,31 +5,31 @@ var mattApp = angular.module("mattApp", ["ngRoute", "ngAnimate"]);
 mattApp.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
-            templateUrl: "/tpl/_main.html",
+            templateUrl: "./tpl/main.html",
             controller: "mainController"
         })
         .when("/main", {
-            templateUrl: "/tpl/_main.html",
+            templateUrl: "./tpl/main.html",
             controller: "mainController"
         })
         .when("/paint", {
-            templateUrl: "/tpl/_gallery.html",
+            templateUrl: "./tpl/gallery.html",
             controller: "paintController"
         })
         .when("/pen", {
-            templateUrl: "/tpl/_gallery.html",
+            templateUrl: "./tpl/gallery.html",
             controller: "penController"
         })
         .when("/pencil", {
-            templateUrl: "/tpl/_gallery.html",
+            templateUrl: "./tpl/gallery.html",
             controller: "pencilController"
         })
         .when("/print", {
-            templateUrl: "/tpl/_gallery.html",
+            templateUrl: "./tpl/gallery.html",
             controller: "printController"
         })
         .when("/image/:img/:title", {
-            templateUrl: "/tpl/_image.html",
+            templateUrl: "./tpl/image.html",
             controller: "imageController",
             controllerAs: "image"
         });
