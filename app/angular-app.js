@@ -95,12 +95,19 @@ mattApp.controller("penController", function ($scope) {
         {"name": "Tree", "id": "tree2"},
         {"name": "Katrina", "id": "katrina"},
         {"name": "Scrapware 1", "id": "scrapware1"},
+        {"name": "Scrapware 2", "id": "scrapware2"},
         {"name": "Scrapware 3", "id": "scrapware3"},
         {"name": "Scrapware 4", "id": "scrapware4"},
+        {"name": "Scrapware 5", "id": "scrapware5"},
+        {"name": "Scrapware 6", "id": "scrapware6"},
         {"name": "Scrapware 7", "id": "scrapware7"},
         {"name": "Scrapware 9", "id": "scrapware9"},
+        {"name": "Scrapware 10", "id": "scrapware10"},
         {"name": "Scrapware 11", "id": "scrapware11"},
+        {"name": "Scrapware 12", "id": "scrapware12"},
         {"name": "Scrapware 13", "id": "scrapware13"},
+        {"name": "Scrapware 14", "id": "scrapware14"},
+        {"name": "Scrapware 16", "id": "scrapware16"},
         {"name": "Scrapware 17", "id": "scrapware17"}
     ];
 });
@@ -117,6 +124,7 @@ mattApp.controller("pencilController", function ($scope) {
         {"name": "Reclining Figure", "id": "recline"},
         {"name": "Nude (pregnant)", "id": "pregnant-nude"},
         {"name": "Sketch #4", "id": "sketch4"},
+        {"name": "Sketch #5", "id": "sketch5"},
         {"name": "Skull Study", "id": "skullstudy"},
         {"name": "Greek Bust Study", "id": "buststudy"},
         {"name": "Cubist Nude", "id": "cubist-nude"},
@@ -139,6 +147,7 @@ mattApp.controller("printController", function ($scope) {
     $scope.items = [
         {"name": "House in Sunglight (intaglio)", "id": "house-in-sunlight-print"},
         {"name": "Internal Structure (etching)", "id": "internal-structure"},
+        {"name": "Katrina (etching)", "id": "katrina-print"},
         {"name": "Pensive (lithograph)", "id": "pensive"},
         {"name": "Brutality (woodblock)", "id": "brutality"}
     ];
